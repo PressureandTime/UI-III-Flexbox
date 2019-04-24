@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* MY CODE */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.div1 {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.jedan {
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-left: 25px;
+    background-color: #f2f2f2;
+
+}
+
+
+.div2 {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.dva {
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-left: 25px;
+    background-color: #f2f2f2;
+
+}
+
+.div3 {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.tri {
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-left: 25px;
+    background-color: #f2f2f2;
+}
+
+.div4 {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.cetiri {
+    padding: 10px;
+    margin-left: 25px;
+
+}
+
+hr {
+    width: 95%;
+}
+
+.text {
+    width: 80%;
+    text-align: justify;
+}
+
+
+footer {
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#lista {
+    list-style: square;
+    padding: 20px;
+
+}
+
+#lista li {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
